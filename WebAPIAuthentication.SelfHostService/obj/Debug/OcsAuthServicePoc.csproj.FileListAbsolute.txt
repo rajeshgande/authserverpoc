@@ -1,0 +1,2 @@
+C:\Work\Projects\OcsAuthServerPOC\WebAPIAuthentication.SelfHostService\bin\Debug\OcsAuthServerPoc.exe.config
+C:\Work\Projects\OcsAuthServerPOC\WebAPIAuthentication.SelfHostService\bin\Debug\OcsAuthServer.exe.config

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OcsAuthServer.Controllers.TestController">
+    <Position X="9.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\TestController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcsAuthServer.Infrastructure.AuthorizationServerConfigurator">
+    <Position X="1.75" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\AuthorizationServerConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcsAuthServer.Infrastructure.HmacSigningCredentials" Collapsed="true">
+    <Position X="6.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAIAAAAAAACAEAAAAAgAAACAAgAAAAA=</HashCode>
+      <FileName>Infrastructure\HmacSigningCredentials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcsAuthServer.Infrastructure.WebApiHostBootstrapper">
+    <Position X="0.5" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\WebApiHostBootstrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcsAuthServer.Models.Audience">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>Models\Audience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcsAuthServer.Models.AuthenticatedUser">
+    <Position X="7.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\AuthenticatedUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcsAuthServer.Models.AudienceRepository" BaseTypeListCollapsed="true">
+    <Position X="9" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Models\IAudienceRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OcsAuthServer.Models.SecurityProcessor" BaseTypeListCollapsed="true">
+    <Position X="6" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ISecurityProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.191" Collapsed="true" />
+  </Class>
+  <Class Name="OcsAuthServer.Program" Collapsed="true">
+    <Position X="10.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OcsAuthServer.Providers.OmnicellJwtFormat" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAABAAA=</HashCode>
+      <FileName>Providers\OmnicellJwtFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OcsAuthServer.Providers.OmnicellOAuthProvider">
+    <Position X="3" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Providers\OmnicellOAuthProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OcsAuthServer.Models.IAudienceRepository">
+    <Position X="10" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IAudienceRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OcsAuthServer.Models.ISecurityProcessor">
+    <Position X="5.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ISecurityProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
